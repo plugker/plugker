@@ -2,7 +2,7 @@ import '../../setting/colors.dart';
 // import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-class Btn {
+class PlugkerBtn {
   final BuildContext context;
   static String name2 = '';
 
@@ -11,7 +11,7 @@ class Btn {
   static const fontBlack =
       TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: Colors.black);
 
-  Btn({this.context});
+  PlugkerBtn({this.context});
   // final page;
 
   static Widget __btnBody(context, text, routes, arguments, color) {

@@ -82,7 +82,7 @@ class PlugkerTable {
                               Container(
                                 child: Row(
                                   children: [
-                                    Btn.custom(context, buttons[0], buttons[2],
+                                    PlugkerBtn.custom(context, buttons[0], buttons[2],
                                         data, buttons[1]),
                                     SizedBox(
                                       width: 5,
